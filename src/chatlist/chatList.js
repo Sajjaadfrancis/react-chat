@@ -9,7 +9,6 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
 
 class ChatListComponent extends React.Component {
   render() {
