@@ -100,7 +100,7 @@ class ChatListComponent extends React.Component {
   }
 
   newChat = () => {
-    console.log("New chat click");
+    this.props.newChatBtnFn();
   };
 
   selectChat = (index) => {
