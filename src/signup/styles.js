@@ -33,7 +33,7 @@ const styles = (theme) => ({
     width: "100%",
     textDecoration: "none",
     color: "#303f9f",
-    fontWeight: "bolder",
+    fontWeight: "bold",
   },
   errorText: {
     color: "red",

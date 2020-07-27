@@ -17,7 +17,6 @@ class ChatViewComponent extends React.Component {
       return (
         <div>
           <div className={classes.chatHeader}>
-            Your conversation with{" "}
             {chat.users.filter((_usr) => _usr !== user)[0]}
           </div>
           <main id="chatview-container" className={classes.content}>
@@ -26,7 +25,7 @@ class ChatViewComponent extends React.Component {
                 <div
                   key={_index}
                   className={
-                    _msg.sender === user ? classes.userSent : classes.friendSent
+                    _msg.sender === user ? classes.friendSent : classes.userSent
                   }
                 >
                   {_msg.message}
